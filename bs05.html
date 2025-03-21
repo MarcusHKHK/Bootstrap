@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="et">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+      .jumbo{
+        background-image: url("https://picsum.photos/id/654/1400/400");
+      }
+      .card-img-top {
+        width: 100%;
+        height: 15vw;
+        object-fit: cover;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-dark "data-bs-theme="dark">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#"><i class="fa-solid fa-globe"></i> marcusk.studio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">marcusk.studio</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-success" type="submit"><i class="fa-solid fa-globe"></i> Log in</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="p-5 mb-4 rounded-2 text-center jumbo">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold text-light">Jumbotron</h1>
+          <p class="fs-4 text-light">Using a series of utilities</p>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/id/642/400/400" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">BOAT</h5>
+              <span class="badge text-bg-success">Success</span>
+              <span class="badge text-bg-danger">Danger</span>
+              <p class="card-text">This wants to be something.</p>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://picsum.photos/id/627/400/400" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Dont want to eat this</h5>
+              <span class="badge text-bg-success">Success</span>
+              <span class="badge text-bg-danger">Danger</span>
+              <p class="card-text">This is a short card.</p>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <iframe class="card-img-top" src="https://www.youtube.com/embed/9QsMKris4Dk?si=dh6RPTITdb0F0ZFt" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title">When Mario wants be actor</h5>
+              <span class="badge text-bg-warning">Warning</span>
+              <span class="badge text-bg-danger">Danger</span>
+              <p class="card-text">This wants to be a video.</p>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+    </div>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
